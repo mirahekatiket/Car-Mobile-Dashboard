@@ -1,0 +1,7 @@
+.card {
+  @apply bg-white p-4 tracking-wider rounded-lg w-full shadow;
+
+  &:not(:last-child){
+    @apply mb-4;
+  }
+}

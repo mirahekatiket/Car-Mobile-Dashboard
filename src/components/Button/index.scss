@@ -1,0 +1,30 @@
+.button {
+  padding: 8px 0;
+  border-radius: 6px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  font-size: 12px;
+
+  &.primary {
+    background: #0C7BF2;
+    color: #FFFFFF;
+  }
+
+  &.secondary {
+    color: #007bff;
+    background-color: #e7f2ff;
+  }
+
+  &.danger {
+    color: #f15c59;
+    background-color: #ffdfdf;
+  }
+
+  &.block {
+    width: 100%;
+  }
+}

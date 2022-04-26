@@ -1,0 +1,23 @@
+.tab {
+  ul {
+    @apply sticky top-0 z-30 flex overflow-x-scroll overflow-y-hidden text-sm bg-white;
+    white-space: nowrap;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    
+    li {
+      color: #71747D;
+      font-size: 14px;
+      padding: 16px 20px;
+
+      &.active {
+        border-bottom: solid 2px #007BFF;
+        color: #007BFF;
+        font-weight: 600;
+      }
+    }
+  }
+}
