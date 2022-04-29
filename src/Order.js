@@ -14,6 +14,7 @@ function Order({
   orderDate,
   onConfirm
 }) {
+  console.log('console abc');
   return (
     <Card>
       <p className='order-id'>{`Order ID: ${orderId}`}</p>
